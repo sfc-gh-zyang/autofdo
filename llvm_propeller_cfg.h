@@ -108,7 +108,6 @@ class CFGNode final {
 
   void set_freq(uint64_t freq) { freq_ = freq; }
   void set_bundle(CFGNodeBundle *bundle) {
-    DCHECK_EQ(bundle_, nullptr);
     bundle_ = bundle;
   }
 
